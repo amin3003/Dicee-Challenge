@@ -2,12 +2,20 @@
   width: 70%;
   margin: auto;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dices {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .dice {
   text-align: center;
   display: inline-block;
-
 }
 
 body {
@@ -30,6 +38,19 @@ p {
 
 img {
   width: 80%;
+}
+
+.btn {
+  width: 70px;
+  height: 50px;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  border-radius: 10%;
+
+}
+
+.btn-box {
+  margin-top: 15px;
 }
 
 footer {
